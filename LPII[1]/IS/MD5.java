@@ -111,7 +111,7 @@ return sb.toString();
 
 public static void main(String[] args)
 {
-String[] testStrings = { "Ritya yeda zawa" };
+String[] testStrings = { "hello world" };
 for (String s : testStrings)
 System.out.println("0x" + toHexString(computeMD5(s.getBytes()))
 + " <== \"" + s + "\"");
